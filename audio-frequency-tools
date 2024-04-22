@@ -7,7 +7,7 @@ selected=0
 # Function to display the list and highlight the selected item
 display_list() {
     clear
-    echo -e "\033[1m  Media Tools\033[0m\n  -----------"
+    echo -e "\033[1m  Audio Frequency Tools\033[0m\n  ---------------------"
     for i in "${!commands[@]}"; do
         if [ $i -eq $selected ]; then
             if [ "${commands[$i]}" == "Quit" ]; then
