@@ -26,12 +26,12 @@ execute_command() {
     case ${commands[$selected]} in
         "Frequency Detector") 
             # Add your command logic here
-            python3 Media-Tools/tools/frequency-detector.py
+            python3 Audio-Frequency-Tools/tools/frequency-detector.py
             read -p "Press Enter to return to the menu..."
             ;;
         "Frequency Generator") 
             # Add your command logic here
-            python3 Media-Tools/tools/frequency-generator.py
+            python3 Audio-Frequency-Tools/tools/frequency-generator.py
             read -p "Press Enter to return to the menu..."
             ;;
         "Quit") 
