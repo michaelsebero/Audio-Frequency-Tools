@@ -1,6 +1,6 @@
 #!/bin/bash
 
-commands=("Audio Frequency Detector" "Audio Frequency Generator" "Quit")
+commands=("Frequency Detector" "Frequency Generator" "Quit")
 
 selected=0
 
@@ -24,14 +24,14 @@ display_list() {
 # Function to execute the selected command
 execute_command() {
     case ${commands[$selected]} in
-        "Audio Frequency Detector") 
+        "Frequency Detector") 
             # Add your command logic here
-            python3 Media-Tools/tools/audio-frequency-detector.py
+            python3 Media-Tools/tools/frequency-detector.py
             read -p "Press Enter to return to the menu..."
             ;;
-        "Audio Frequency Generator") 
+        "Frequency Generator") 
             # Add your command logic here
-            python3 Media-Tools/tools/audio-frequency-generator.py
+            python3 Media-Tools/tools/frequency-generator.py
             read -p "Press Enter to return to the menu..."
             ;;
         "Quit") 
