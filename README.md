@@ -1,6 +1,6 @@
 ## How to Install
 ```
-pip install numpy librosa pyaudio
+pip install numpy librosa pyaudio sounddevice
 
 git clone https://github.com/MichaelSebero/Audio-Frequency-Tools
 
